@@ -22,8 +22,9 @@
         text-decoration: none;
     }
     .banner {
-        insert-"bilde1.png"
-        background-color: #ddd;
+        background-image: url('bilde1.png');
+        background-size: cover;
+        background-position: center;
         text-align: center;
         padding: 50px;
         margin: 20px;
