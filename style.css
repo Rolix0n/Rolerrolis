@@ -22,12 +22,12 @@
         text-decoration: none;
     }
     .banner {
-        background-image: url('bilde1.png');
+        background-image: url('bilde2.png');
         background-size: cover;
         background-position: center;
         text-align: center;
-        padding: 50px;
-        margin: 20px;
+        padding:500px;
+        margin: 0px;
     }
     .content {
         display: flex;
