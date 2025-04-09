@@ -18,7 +18,8 @@
     }
     .menu a {
         color: #ffffff;
-        margin: 0 30px;
+        margin: 0px 120px;
+        margin-right: 0px;
         padding: 22px 25px;
         font-size: 22px;
         text-decoration: none;
