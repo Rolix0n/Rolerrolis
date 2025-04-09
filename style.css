@@ -34,8 +34,10 @@
         background-size: cover;
         background-position: center;
         text-align: center;
-        padding:500px;
+        padding: 0;
         margin: 0px;
+        height: 1000px;
+        position: relative;
     }
     .banner h2 {
         display: inline-block;
@@ -43,8 +45,10 @@
         padding: 15px 30px;
         border-radius: 5px;
         color: #ffffff;
-        margin: 0;
-        
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .content {
         display: flex;
