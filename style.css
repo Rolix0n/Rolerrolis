@@ -6,20 +6,20 @@
         background-color: #ffffff;
     }
     .header {
-        background-color: #87A5D6;
+        background-color: #699bf7;
         padding: 10px;
         text-align: center;
     }
     .menu {
         display: flex;
         justify-content: center;
-        background-color: #5B88C2;
+        background-color: #699bf7;
         padding: 30px;
     }
     .menu a {
         color: #ffffff;
         margin: 0 90px;
-        padding: 15px 25px;
+        padding: 22px 25px;
         font-size: 22px;
         text-decoration: none;
     }
@@ -48,7 +48,7 @@
     }
     .box {
         width: 45%;
-        background-color: #83a5c9;
+        background-color: #5b88c2;
         padding: 20px;
         border-radius: 10px;
         
@@ -63,7 +63,7 @@
         margin-bottom: 10px;
     }
     .footer {
-        background-color: #5B88C2;
+        background-color: #699bf7;
         color: white;
         text-align: center;
         padding: 20px;
