@@ -21,6 +21,7 @@
         color: #ffffff;
         padding: 22px 25px;
         font-size: 22px;
+        font-weight: bold;
         text-decoration: none;
         flex: 1;
         text-align: center;
@@ -43,6 +44,7 @@
         border-radius: 5px;
         color: #ffffff;
         margin: 0;
+        
     }
     .content {
         display: flex;
