@@ -13,9 +13,7 @@
     .menu {
         display: flex;
         justify-content: center;
-        background-image: url('bilde3.png');
-        background-size: cover;
-        background-position: center;
+        background-color: #5B88C2;
         padding: 30px;
     }
     .menu a {
