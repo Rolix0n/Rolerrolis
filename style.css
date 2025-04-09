@@ -12,17 +12,18 @@
     }
     .menu {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         background-color: #699bf7;
         padding: 30px;
+        width: 100%;
     }
     .menu a {
         color: #ffffff;
-        margin: 0px 120px;
-        margin-right: 0px;
         padding: 22px 25px;
         font-size: 22px;
         text-decoration: none;
+        flex: 1;
+        text-align: center;
     }
     .banner {
         background-image: url('bilde2.png');
