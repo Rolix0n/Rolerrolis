@@ -24,7 +24,9 @@
         text-decoration: none;
         flex: 1;
         text-align: center;
-        tex
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .banner {
         background-image: url('bilde2.png');
