@@ -71,10 +71,12 @@
         background-color: #f0f5ff;
         border: 2px solid #5b88c2;
         border-radius: 10px;
+        width: 500px;;
     }
     .info-box h3 {
         color: #5b88c2;
         margin-bottom: 15px;
+        width 500px;
     }
     .info-box p {
         color: #333;
