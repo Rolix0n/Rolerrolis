@@ -65,21 +65,20 @@
     .content img {
         border-radius: 15px;
     }
-    .text-box {
+    .info-box {
         padding: 20px;
         margin: 10px;
+        background-color: #f0f5ff;
+        border: 2px solid #5b88c2;
+        border-radius: 10px;
     }
-    .text-box h3 {
+    .info-box h3 {
         color: #5b88c2;
         margin-bottom: 15px;
     }
-    .text-box textarea {
-        width: 100%;
-        padding: 10px;
-        border: 2px solid #5b88c2;
-        border-radius: 5px;
-        font-family: Arial, sans-serif;
-        resize: vertical;
+    .info-box p {
+        color: #333;
+        line-height: 1.5;
     }
     .image-placeholder {
         width: 100%;
