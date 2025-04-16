@@ -62,6 +62,9 @@
         gap: 20px;
         padding: 20px;
     }
+    .content img {
+        border-radius: 15px;
+    }
     .box {
         width: 45%;
         background-color: #5b88c2;
