@@ -90,6 +90,18 @@
         justify-content: center;
         margin-bottom: 10px;
     }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 20px;
+    }
+    .gallery img {
+        max-width: 500px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
     .footer {
         background-color: #699bf7;
         color: white;
