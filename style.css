@@ -102,6 +102,50 @@
         border-radius: 15px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
+    .login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        padding: 20px;
+    }
+    .login-box {
+        background-color: #f0f5ff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        width: 300px;
+    }
+    .login-box h2 {
+        text-align: center;
+        color: #5b88c2;
+        margin-bottom: 20px;
+    }
+    .login-box input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #5b88c2;
+        border-radius: 5px;
+    }
+    .login-box button {
+        width: 100%;
+        padding: 10px;
+        background-color: #699bf7;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .login-box p {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .signup-link {
+        color: #5b88c2;
+        text-decoration: none;
+    }
     .footer {
         background-color: #699bf7;
         color: white;
