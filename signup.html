@@ -5,27 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RolerRolis - Sign Up</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- Link the external JavaScript file -->
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="menu">
-        <a href="index.html"><img src="bilde3.png" width="300"> </a>
+        <a href="index.html"><img src="bilde3.png" width="300" alt="Logo"> </a>
         <a href="galerija.html">Galerija</a>
-        <a href="#">Sūdzības</a>
+        <a href="sudzibas.html">Sūdzības</a>
         <a href="#">Par mums</a>
-        <a href="#">Kontakti</a>
-        <a href="login.html">Log In or Sign up</a>
+        <a href="Kontakti.html">Kontakti</a>
+        <a href="login.html">Autorizēties vai Reģistrēties</a>
     </div>
     <div class="login-container">
         <div class="login-box">
-            <h2>Sign Up</h2>
-            <form>
-                <input type="text" placeholder="Full Name" required>
-                <input type="email" placeholder="Email" required>
-                <input type="password" placeholder="Password" required>
-                <input type="password" placeholder="Confirm Password" required>
-                <button type="submit">Sign Up</button>
-            </form>
-            <p>Already have an account? <a href="login.html" class="signup-link">Login</a></p>
+            <h2>Reģistrēties</h2>
+            <!-- Removed form element to prevent auto-submission -->
+            <input type="text" id="fullName" placeholder="Vārds" required>
+            <input type="email" id="signupEmail" placeholder="Lietotājvārds" required>
+            <input type="password" id="signupPassword" placeholder="Parole" required>
+            <input type="password" id="confirmPassword" placeholder="Atkārtot Paroli" required>
+            <button onclick="signup()">Reģistrēties</button>
+            <p>Jau esat reģistrējušies? <a href="login.html" class="signup-link">Autorizēties</a></p>
         </div>
     </div>
     <div class="footer">

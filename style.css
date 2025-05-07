@@ -1,4 +1,4 @@
-<style>
+
     body {
         font-family: Arial, sans-serif;
         margin: 0;
@@ -194,4 +194,85 @@
         padding: 20px;
         margin-top: 20px;
     }
-</style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6ecf5;
+}
+
+.menu {
+    background-color: #699bf7;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.login-box {
+    background-color: #f0f5ff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.login-box h2 {
+    text-align: center;
+    color: #699bf7;
+    margin-bottom: 20px;
+}
+
+.login-box input,
+.login-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #699bf7;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #699bf7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-box p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.footer {
+    background-color: #699bf7;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}

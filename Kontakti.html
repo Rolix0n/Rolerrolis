@@ -1,35 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RolerRolis - Autorizācija</title>
+    <title>RolerRolis - Kontakti</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <!-- Link the external JavaScript file -->
-    <script src="script.js"></script>
 </head>
 <body>
     <div class="menu">
-        <a href="index.html"><img src="bilde3.png" width="300" alt="Logo"> </a>
+        <a href="index.html"><img src="bilde3.png" width="300" alt="Logo"></a>
         <a href="galerija.html">Galerija</a>
         <a href="sudzibas.html">Sūdzības</a>
         <a href="#">Par mums</a>
         <a href="Kontakti.html">Kontakti</a>
         <a href="login.html">Autorizēties vai Reģistrēties</a>
     </div>
+
     <div class="login-container">
         <div class="login-box">
-            <h2>Autorizēties</h2>
-            <!-- Removed the form element to prevent unwanted submissions -->
-            <input type="text" placeholder="Lietotājvārds" id="email" required>
-            <input type="password" placeholder="Parole" id="password" required>
-            <button onclick="login()">Login</button>
-            <p>Nav konta? <a href="signup.html" class="signup-link">Reģistrēties</a></p>
+            <h2>Sazinies ar mums</h2>
+            <input type="text" placeholder="Vārds" id="name" required>
+            <input type="email" placeholder="E-pasts" id="email" required>
+            <textarea placeholder="Tavs ziņojums" id="message" rows="4" required></textarea>
+            <button onclick="sendMessage()">Sūtīt</button>
+            <p>Mēs atbildēsim cik ātri vien iespējams!</p>
         </div>
     </div>
+
     <div class="footer">
         <p>FACEBOOK - @ROLERROLIS | INSTAGRAM - @ROLERROLIS</p>
         <p>&copy; COPYRIGHTS 2009 - 2022 OR UNTIL BANKRUPT ROLERROLIS ALL RIGHTS RESERVED</p>
     </div>
+
+    <script>
+        function sendMessage() {
+            alert("Ziņojums nosūtīts! Paldies par saziņu.");
+        }
+    </script>
 </body>
 </html>

@@ -6,23 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RolerRolis - Sūdzības</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="menu">
-        <a href="index.html"><img src="bilde3.png" width="300"> </a>
+        <a href="index.html"><img src="bilde3.png" width="300" alt="Logo"> </a>
         <a href="galerija.html">Galerija</a>
         <a href="sudzibas.html">Sūdzības</a>
         <a href="#">Par mums</a>
-        <a href="#">Kontakti</a>
-        <a href="login.html">Log In or Sign up</a>
+        <a href="Kontakti.html">Kontakti</a>
+        <a href="login.html">Autorizēties vai Reģistrēties</a>
     </div>
     <div class="login-container">
         <div class="complaint-box">
             <h2>Iesniegt Sūdzību</h2>
-            <form>
-                <input type="text" placeholder="Vārds, Uzvārds" required>
-                <input type="email" placeholder="E-pasts" required>
-                <textarea placeholder="Jūsu sūdzība..." required></textarea>
+            <form id="complaintForm">
+                <input type="text" id="complaintName" placeholder="Vārds, Uzvārds" required>
+                <input type="email" id="complaintEmail" placeholder="E-pasts" required>
+                <textarea id="complaintMessage" placeholder="Jūsu sūdzība..." required></textarea>
                 <button type="submit">Iesniegt</button>
             </form>
         </div>
